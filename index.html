@@ -8,8 +8,11 @@
 	<title>учебный сайт</title>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="./css/ind.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+		rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com/css2? family=lobster:wght@400&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="css/ind.css">
 </head>
 
 <body class="page">
@@ -31,33 +34,60 @@
 				</li>
 			</ul>
 		</nav>
-		<button class="butl" href="og-popup.html">Кнопка</button>
+		<button type="submit" class="butl" href="#" id="open-popup">кнопка</button>
 		<div class="popup">
-			<h2 class="og-headup">войти на сайт</h2>
+			<div class="popup-cont">
+				<div class="popup-body" id="popup-body"></div>
+				<p> вход на сайт </p>
+				<form action="">
+					<input type="text" placeholder="login" required=""></input>
+					<input type="text" placeholder="password" required=""></input>
+					<button type="submit">кнопка</button>
+				</form>
+				<div class="popup-close" id="popup-close">
+					&#10006
+				</div>
+			</div>
+		</div>
+		</div>
+		</div>
+		<!--<div class="og-popupl">
+			<a href="og-popup" class="close">X</a>
+			<h2 class="og-headup">вход на сайт</h2>
 			<form class="og-form">
-				<input type="text" class="og-ramel" name="login" placeholder="login" required></input>
-				<input type="text" class="og-passl" name="password" placeholder="password" required></input>
+				<input type="text" class="og-ramel" name="login" placeholder="login" required=""></input>
+				<input type="text" class="og-passl" name="password" placeholder="password" required=""></input>
 				<button class="og-popup" type="submit">Кнопка</button>
 			</form>
-		</div>
+		</div>-->
 	</header>
 	<main class="main">
-		<h1 class="main-hes"> Добро пожаловать на курс “Создание веб-сайтов (HTML, CSS)”!</h1>
-		<img class="top1" src="img/top1.png" width="523" height="316" alt="top1">
-		<h2> Для кого этот курс </h2>
-		<p class="tip-text">Этот курс рассчитан на новичков, которые только начинают знакомство
-			с веб-разработкой. В начале курса вы узнаете о том, как устроен Интернет и веб-сайты.
-			Для обучения необходимо только владеть компьютерной грамотностью (пользоваться браузером, создавать папки и
-			файлы, устанавливать программы).</p>
-		<h2> Чему вы научитесь </h2>
-		<p class="nom-text">На этом курсе вы узнаете, как устроены веб-сайты и как создавать их с нуля. Изучите основы
-			языков <strong> HTML </strong>,<strong> CSS </strong> и немного <strong> JavaScript </strong>.Мы вместе
-			сверстаем сайт
-			нашей группы по этому макету. А затем вы<em class="em"> сами </em>
-			сверстаете свои личные странички в качестве
-			домашнего
-			задания и мы выложим все это на сервер.
-		</p>
+		<h1 class="main-hes">Добро пожаловать на курс“Создание веб-сайтов(HTML,CSS)”!</h1>
+		<img class="top1" src="img/top1.png" alt="top1">
+		<div class="con">
+			<h2> Для кого этот курс </h2>
+			<div class="tetl">
+				<p class="tip-text">Этот курс рассчитан на новичков,которые только начинают знакомство
+					с веб-разработкой.В начале курса вы узнаете о том,как устроен
+					Интернет и веб-сайты.
+					Для обучения необходимо только владеть компьютерной грамотностью
+					(пользоваться браузером,создавать папки и файлы,устанавливать
+					программы).</p>
+				<aside class="aside-con">
+					<blockquote class="con">
+						&#8220Учимся <br />
+						вместе! &#8221
+					</blockquote>
+				</aside>
+			</div>
+			<h2> Чему вы научитесь </h2>
+			<p class="nom-text">На этом курсе вы узнаете,как устроены веб-сайты и как создавать их с
+				нуля.Изучите основы языков <strong> HTML </strong>, <strong> CSS </strong> и немного <strong> JavaScript
+				</strong>. Мы
+				вместе сверстаем сайт нашей группы по этому макету.А затем вы <em class="em"> сами </em>
+				сверстаете свои личные странички в качестве домашнего задания и мы
+				выложим все это на сервер.
+			</p>
 	</main>
 	<footer class="footer">
 		<p class="fit">2022 &copy; <a href="#" class="police-link"> учебный центр </a></p>

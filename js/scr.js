@@ -1,13 +1,12 @@
-let butl = document.querySelector(".butl");
-let ogPopUp = document.querySelector(".ogPopUp");
+let openPopUp = document.querySelector('openpopup');
+let closePopUp = document.querySelector('closepopup');
+let popup = document.getElementById('popup');
 
-butl.addEventListener("click", open);
-//ogPopUp.addEventListener("click", close);
 
-function open(evt) {
+openPopUp.addEventListener('click', function (evt) {
 	evt.preventDefault();
-	butl.classList.add("active");
-
-	//function close() {
-	ogpopup.classList.toggle("open");
-};
+	popup.classList.add('active');
+})
+closePopUp.addEventListener('click', () => {
+	popup.classList.remove('active');
+})
