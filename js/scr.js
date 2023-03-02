@@ -1,10 +1,13 @@
-
-let ogPopUp = document.querySelector('og-popup');
 let butl = document.querySelector('butl');
-console.log('og-popup');
-console.log('butl');
-butl.addEventListener('click', ogPopUp);
-function ogPopUp(evt) {
-	evt.preventDefault();
-	popup.classList.toggle('og-popup');
+let ogPopUpl = document.querySelector('og-popupl');
+let closePopUp = document.querySelector('close-popup');
+closePopUp = evt => {
+	target = evt.target;
+	if (target === ogPopUpl.closest('og-popup', close)) {
+		ogPopUpl.opacity = 0;
+	}
 }
+setTimeout() {
+	ogPopUpl.visibility = 'hidden';
+}
+
